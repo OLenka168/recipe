@@ -8,7 +8,7 @@ function NewRecipe ({anyRecipe}) {
                 <img src={anyRecipe.recipe.image} width='300px' height='300px' alt='pic'/>
             </div>
             <div className="btn">
-                <button><a href={anyRecipe.recipe.shareAs} target='_blank'>SHOW MORE</a></button>
+                <button><a href={anyRecipe.recipe.shareAs}>SHOW MORE</a></button>
             </div>
         </div>
     )
