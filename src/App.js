@@ -34,7 +34,7 @@ function App() {
     <div>
       <div className='container'>
         <div>
-          <video autoPlay muted loop> <source src={video} type='video/mp4' /></video>
+          <video autoPlay muted loop playsInline> <source src={video} type='video/mp4' /></video>
           <h1>FIND a RECIPE</h1>
         </div>
         <form onSubmit={finalSearch}>
